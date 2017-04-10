@@ -3,6 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <script>
+        window.$ = window.jQuery = require('./jquery.min.js');
+    </script>
+    <script>
+        const remote = require('electron').remote;
+        const opt=remote.getGlobal('sharedObject').icon;
+        console.log(opt);
+        jQuery(document).ready(function () {
+            $("#opt").html(opt);
+        });
+    </script>
   </head>
   <body>
     <h1>Hello World!</h1>
@@ -10,6 +21,9 @@
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+
+  <br><br>
+  <div id="opt"></div>
   </body>
 
   <script>
