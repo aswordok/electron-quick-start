@@ -1,11 +1,11 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
+  "name": "IamPackageName",
+  "version": "3.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager . --platform=win32 --icon=myicon.ico --win32metadata.OriginalFilename=HelloWorld.exe --win32metadata.FileDescription=HelloWorld --win32metadata.ProductName=HelloWorld --overwrite --ignore=./*.md --ignore=.gitignore --ignore=.idea --download.mirror=https://npm.taobao.org/mirrors/electron/"
+    "package": "electron-packager . --platform=win32 --icon=myicon.ico --win32metadata.CompanyName=myComName --win32metadata.FileDescription=IamFileDescription --win32metadata.OriginalFilename=IamOriginalFilename.exe --win32metadata.ProductName=IamProductName --win32metadata.InternalName=IamInternalName --overwrite --ignore=./*.md --ignore=.gitignore --ignore=.idea --download.mirror=https://npm.taobao.org/mirrors/electron/"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
