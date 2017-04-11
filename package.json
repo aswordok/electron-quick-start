@@ -1,10 +1,12 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
+  "name": "helloWorldPrograme",
+  "productName": "helloWorldProduct",
+  "version": "3.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . --platform=win32 --icon=myicon.ico --win32metadata.CompanyName=myCom --win32metadata.FileDescription=helloWorld --win32metadata.OriginalFilename=helloWorld.exe --win32metadata.ProductName=helloWorld --win32metadata.InternalName=helloWorld --overwrite --ignore=./*.md --ignore=.gitignore --ignore=.idea --download.mirror=https://npm.taobao.org/mirrors/electron/"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -18,5 +20,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~1.6.2"
+  },
+  "dependencies": {
+    "electron": "^1.6.2"
   }
 }
