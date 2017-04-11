@@ -1,6 +1,5 @@
 {
   "name": "helloWorldPrograme",
-  "productName": "helloWorldProduct",
   "version": "3.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",

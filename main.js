@@ -15,7 +15,6 @@ function createWindow () {
     const options = {
         width: 800,
         height: 600,
-        title:"IamMainJStitle",
         icon:__dirname+"\\myicon.ico"
     };
     global.sharedObject = options;
