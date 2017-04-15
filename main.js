@@ -15,7 +15,7 @@ function createWindow () {
     const options = {
         width: 800,
         height: 600,
-        icon:__dirname+"\\myicon.ico"
+        icon:__dirname+"\\myicon.ico",
     };
     global.sharedObject = options;
   // Create the browser window.
